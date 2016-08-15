@@ -38,7 +38,7 @@ tr:nth-child(even){background-color: #f6f6f2}
 <script type="text/javascript">
 $(function(){
   $("#InstanceName").autocomplete({
-    source: "<?php echo base_url();?>Cmapping/TermData" // path to the get_birds method
+    source: "<?php echo base_url();?>Cmapping/TermData" 
   });
 });
 </script>
